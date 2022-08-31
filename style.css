@@ -72,15 +72,17 @@ a{
 .big-box{
     border: 1px solid black;
     border-radius: 15px;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 30px;
     padding: 20px 10px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .price-container{
-    width: 250px;
+    width: 280px;
     padding: 25px 20px;
     border-right: 1.5px solid black;
 }
@@ -121,11 +123,12 @@ a{
     margin-top: 15px;
 }
 .features h5{
-    padding-bottom: 5px;
+    padding-bottom:10px ;
+    padding-top:5px ;
 }
 .features li{
     font-size: 10px;
-    line-height: 1.5;
+    line-height: 1.75;
 }
 .extra{
     padding-top: 17px;
