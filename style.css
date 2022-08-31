@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+/* reuseables starts here */
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* reuseables ends here */
+/* header starrts here  */
+.header{
+/* border: 3px solid black; */
+}
+.pc{
+    padding: 30px   0;
+    /* border: 3px solid blue; */
+    text-align: center;
+}
+.pc h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.spit{
+    padding: 10px 0;
+    text-align: center;
+    /* border: 3px solid red ; */
+}
+.spit p{
+    font-size: 25px;
+}
+.buttons{
+    padding: 15px 0;
+    /* border: 3px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.buttton-house{
+    padding: 7px 10px;
+    width: 235px;
+    border-radius: 8px;
+    background: rgb(170, 169, 169) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* border: 3px solid yellow; */
+}
+.btn{
+    padding: 5px 10px;
+    gap: 10px;
+    background: transparent;
+    border: none;
+    border-radius: 7.5px;
+    font-weight: bold;
+    font-size: 12.5px;
+}
+.btn:hover{
+    background: white;
+}
+/* header ends here  */
+/* main starts here  */
+.big-box{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: row;
+}
+.price-container{
+    width: 250px;
+    padding: 25px 20px;
+    border-right: 1.5px solid black;
+}
+.price-container p{
+    font-size: 12px;
+}
+.price-container h5{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.pu{
+    padding: 15px 0;
+    font-size: 20px;
+}
+.pu span{
+    font-size: 10px;
+    
+}
+.pu h3{
+    font-weight: lighter;
+}
+.hmmm{
+    height: 25px;
+    width: 100px;
+    margin-bottom: 20px;
+    font-size: 10px;
+    background: black;
+    border-radius: none;
+    color: white;
+    font-weight: bolder;
+}
+.hmmm:hover{
+    background: transparent;
+    color: black;
+    border:1px solid black;
+}
+.haa{
+    margin-top: 15px;
+}
+.features h5{
+    padding-bottom: 5px;
+}
+.features li{
+    font-size: 10px;
+    line-height: 1.5;
+}
+.extra{
+    padding-top: 17px;
+}
+li span{
+    margin-right: 5px;
+    font-weight: bolder;
+    font-size: 8px;
+}
+.last{
+    border-right: none;
+}
+/* main ends here  */
