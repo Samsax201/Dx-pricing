@@ -1,0 +1,118 @@
+@media screen and (max-width: 800px){
+    .pc{
+        padding: 35px   0;
+        /* border: 3px solid blue; */
+        text-align: center;
+    }
+    .pc h3{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .spit{
+        /* padding: 5px 0; */
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        /* border: 3px solid red ; */
+    }
+    .spit p{
+        font-size: 30px;
+    }
+    .buttons{
+        padding: 15px 0;
+        /* border: 3px solid green; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    
+    }
+    .buttton-house{
+        padding: 10px 7.5px;
+        width: 270px;
+        border-radius: 8px;
+        background: rgb(170, 169, 169) ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+        /* border: 3px solid yellow; */
+    }
+    .btn{
+        padding: 5px 10px;
+        background: transparent;
+        border: none;
+        border-radius: 7.5px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .btn:hover{
+        background: white;
+    }
+    /* header ends here  */
+    /* main starts here  */
+    .big-box{
+        border: 1px solid black;
+        border-radius: 15px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 30px 0;
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .price-container{
+        width: 75%;
+        padding: 25px 15px;
+        border-right: none;
+
+    }
+    .price-container p{
+        font-size: 15px;
+    }
+    .price-container h5{
+        font-size: 17px;
+        padding-bottom: 15px;
+    }
+    .pu{
+        padding: 15px 0;
+        font-size: 25px;
+    }
+    .pu span{
+        font-size: 13px;
+        
+    }
+    .pu h3{
+        font-weight: lighter;
+    }
+    .hmmm{
+        height: 30px;
+        width: 120px;
+        margin-bottom: 20px;
+        font-size: 15px;
+        background: black;
+        border-radius: none;
+        color: white;
+        font-weight: bolder;
+    }
+    .features h5{
+        padding-bottom:10px ;
+        padding-top:5px ;
+    }
+    .features li{
+        font-size: 13px;
+        line-height: 1.75;
+    }
+    .extra{
+        padding-top: 17px;
+    }
+    li span{
+        margin-right: 5px;
+        font-weight: bolder;
+        font-size: 10px;
+    }
+        /* main ends here  */
+}
